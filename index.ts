@@ -1,7 +1,4 @@
-import { expandContext } from "./actions/expandContext";
-import { expandFormat } from "./actions/expandFormat";
-import { expandConstraints } from "./actions/expandConstraints";
-import { expandInterfaces } from "./actions/expandInterfaces";
+import { expandContext, expandConstraints, expandFormat, expandInterfaces } from "./utils/expand";
 export default function createPrompt<T extends Collection>(
 	collection: T,
 	config: Config<T>
